@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My Website</title>
+	
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+
+<style>
+	* {
+  margin: 0;
+  paddding: 0;
+}
+
+nav {
+	border-bottom: 4px solid #3E6CD5;
+}
+a.navbar-brand {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+nav li a{
+  font-size: 18px;
+}
+.innermain-one {
+  margin: 3% 0;
+  
+}
+.card {
+	border: 1px solid #FDC02F;
+}
+.innermain-two {
+  background-color: #3E6CD5;
+  padding: 4% 0;
+}
+
+.innermain-two p {
+  color: #fff;
+  font-size: 18px;
+}
+
+.innermain-two li {
+  list-style-type: none;
+  font-size: 20px;
+  color: #f2f3f4;
+  border-bottom: 0.5px solid #cacfd1;
+  padding: 10px 0;
+}
+
+.innermain-three {
+  margin: 3% 0;
+}
+
+.innermain-three img {
+	transition: all 1s;
+}
+.innermain-three img:hover {
+	opacity: 0.7;
+	transform: scale(1.02);
+}
+ p.headline {
+  font-size: 2em;
+   font-family: cursive;
+}
+
+.innermain-four {
+  margin: 3% 0;
+}
+
+.footer p {
+  background-color: #FDC02F;
+  padding: 10px 0px;
+  margin-bottom: 0;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Grey with black text -->
+<nav class="navbar navbar-expand-sm bg-warning navbar-light fixed-top">
+  <a class="navbar-brand" href="#">
+    Visit <span style="
+  background: -webkit-linear-gradient(#003893, #DB143C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;">NEPAL</span>
+    </a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id="navbarResponsive">
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Destinations</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Contact</a>
+    </li>
+  </ul>
+  </div>
+</nav>
+<div class="heroImage">
+  <img class="img-fluid" src="Images/langtang_heroimage.jpg" alt="hero image" style="width: 100%;"/>
+ 
+</div>
+<div class="main">
+  <div class="innermain-one">
+ <div class="container">
+   <p class="text-center headline">Most frequently Visited Places</p>
+  <div class="card-deck">
+    <div class="card bg-light">
+      <img class="card-img-top" src="Images/tea-garden.jpg" alt="Card image" style="width:100%;">
+      <div class="card-body text-center">
+        <p class="card-text">Some text inside the first card</p>
+        
+      </div>
+    </div>
+    <div class="card bg-light">
+      <img class="card-img-top" src="Images/boudha-kathmanu.jpg" alt="Card image" style="width:100%;">
+      <div class="card-body text-center">
+        <p class="card-text">Some text inside the second card</p>
+      </div>
+    </div>
+    <div class="card bg-light">
+      <img class="card-img-top" src="Images/lumbini-nepal.jpg" alt="Card image" style="width:100%">
+      <div class="card-body text-center">
+        <p class="card-text">Some text inside the third card</p>
+      </div>
+    </div>
+  </div>
+    </div>
+</div>  
+ <div class="innermain-two">
+<div class="container">
+  <p class="headline">Popular Destinations:</p>
+  <div class="row mx-auto">
+    <div class="col-md-4  text-center">
+      <li>Pokhara</li>
+      <li>Chitwan</li>
+      <li>Bhairahawa</li>
+    </div>
+    <div class="col-md-4  text-center">
+      <li>Dhulikhel</li>
+      <li>Dhampus</li>
+      <li>Ghandruk</li>
+    </div>
+    <div class="col-md-4  text-center">
+      <li>Sundarijal</li>
+      <li>Tatopani</li>
+      <li>Poonhill</li>
+    </div>
+  </div>
+</div>
+  </div>
+ 
+ <div class="innermain-three"> 
+   <div class="container">
+     <p class="text-center headline">Rare Images from Travelers</p>
+     <div class="row">
+       <div class="col-md-4">
+         <img class="img-fluid" src="Images/deer-nepal.jpg" alt="img1" />
+       </div>
+       <div class="col-md-4">
+         <img class="img-fluid" src="Images/temple-nepal.jpg" alt="img1" />
+       </div>
+       <div class="col-md-4">
+         <img class="img-fluid" src="Images/lake-nepal.jpg" alt="img1" />
+       </div>
+     </div>
+   </div>
+  </div>
+  <div class="innermain-four">
+    <div class="container">
+      <button type="button" class="btn btn-outline-primary btn-lg btn-block" data-toggle="modal" data-target="#myModal">Please write us for information</button>
+    </div>
+    <!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Drop a message:</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+ 
+
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Message</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+   <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+
+     
+
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="footer">
+  <p class="text-center">Copyright &copy; 2019</p>
+</div>	
+
+<! Bootstrap 4 Jquery -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	
+</body>
+</html>
+<!--https://www.impressivewebs.com/animate-display-block-none/-->
